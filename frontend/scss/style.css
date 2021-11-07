@@ -1,14 +1,44 @@
 body {
-  background-color: green;
+  background-color: #1E1E1E;
+}
+
+nav {
+  height: 64px;
+  line-height: 64px;
+}
+
+.container {
+  width: 90%;
 }
 
 .nav-wrapper {
   background-color: #5E494E;
 }
 
-.brand-logo {
+.nav-logo {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   font-family: orator, monospace;
   font-style: normal;
+  font-size: 1.8em;
   font-weight: 400;
+}
+
+.nav-logo img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-right: 14px;
+  height: 1.6em;
+}
+
+nav .sidenav-trigger .material-icons {
+  font-size: 30px;
+  height: 64px;
+  line-height: 64px;
 }
 /*# sourceMappingURL=style.css.map */
