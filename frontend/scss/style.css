@@ -3,13 +3,11 @@ body {
 }
 
 /*
-================
-Navbar
-================
+==============
+NAVBAR
+==============
 */
-/*
-================
-Footer
-================
-*/
+.navbar-brand .navbar-img {
+  max-height: 64px;
+}
 /*# sourceMappingURL=style.css.map */
