@@ -5,8 +5,8 @@
 
 /* MAIN VARS */
 :root {
-    --text-primary: #000000;
-    --text-secondary: #666565;
+    --text-primary: #000000; 
+    --text-secondary: #818181;
 
     --bck: #ffffff;
     --bck-secondary: #fafafa;
@@ -25,8 +25,6 @@
     /* CONTAINER DIMS */
     --container-width: calc(100vw - 3rem);
     --container-width-desktop: 960px;
-    --container-width-widescreen: 1152px;
-    --container-width-fullhd: 1344px;
 
     /* NEWSLETTER */
     --newsletter-strip-size: 16px;

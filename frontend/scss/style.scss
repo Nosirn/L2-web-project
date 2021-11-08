@@ -21,26 +21,12 @@ NEWSLETTER
 ==============
 */
 #newsletter {
-    background: var(--bck-secondary);
     padding: var(--newsletter-border-size);
     padding-top: 0;
 }
 
-.bd-newsletter-heading {
-    margin-bottom: var(--bd-index-vertical);
-}
-
 #newsletter-heading .title {
     font-weight: 400;
-}
-
-.bd-newsletter-heading .icon {
-    float: left;
-    margin-right: 0.75rem;
-    align-self: flex-start;
-    font-size: 2rem;
-    width: 2rem;
-    height: 2rem;
 }
 
 #newsletter .title strong {
@@ -54,18 +40,34 @@ NEWSLETTER
     font-size: .75em;
 }
 
+.bd-newsletter-fields {
+    display: grid;
+    grid-gap: 1rem;
+}
+
 .bd-newsletter-heading form {
     margin-top: 1.5rem;
 }
 
+.bd-newsletter-heading .icon {
+    float: left;
+    margin-right: 0.75rem;
+    align-self: flex-start;
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
 .bd-newsletter-box {
     padding-top: calc(var(--bd-index-vertical) + var(--newsletter-strip-size));
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: var(--bck);
     background-image: url(/assets/img/newsletter-strip.png);
     background-repeat: repeat-x;
     background-size: 96px var(--newsletter-strip-size);
     border-radius: 1.5em;
-    box-shadow: 0 0 0 1px var(--bck-secondary);
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.2);
 }
 
 .bd-index-section {
