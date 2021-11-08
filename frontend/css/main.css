@@ -1,0 +1,19 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/icon?family=Roboto+Mono');
+@import url('//db.onlinewebfonts.com/c/91efea3c2356f5fa3e2fce8acd26d667?family=Orator');
+
+html {
+    font-size: 100%;
+}
+
+/* Colors */
+:root {
+    --primary-100: #1E1E1E;
+}
