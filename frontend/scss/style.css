@@ -37,19 +37,23 @@ NEWSLETTER
   -ms-flex-item-align: start;
       align-self: flex-start;
   font-size: 2rem;
-  width: 1.125rem;
-  height: 1.125rem;
-  background-color: red !important;
+  width: 2rem;
+  height: 2rem;
 }
 
 #newsletter .title strong {
   font-weight: 600;
+  line-height: 1.125rem;
 }
 
 #newsletter .title small {
   color: var(--text-secondary);
   display: block;
   font-size: .75em;
+}
+
+.bd-newsletter-heading form {
+  margin-top: 1.5rem;
 }
 
 .bd-newsletter-box {
