@@ -1,0 +1,41 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/icon?family=Roboto+Mono');
+@import url('//db.onlinewebfonts.com/c/91efea3c2356f5fa3e2fce8acd26d667?family=Orator');
+
+/* MAIN VARS */
+:root {
+    --text-primary: #000000;
+    --text-secondary: #666565;
+
+    --bck: #ffffff;
+    --bck-secondary: #fafafa;
+
+    --elem-primary: #2d8cff;
+    --elem-primary-bck: #000000;
+    --elem-secondary: #000000;
+    --elem-secondary-bck: #000000;
+
+    --newsletter-bck: #1e1e1e;
+
+    /* DYN COLORS */
+    --hl-color: var(--hl-orange);
+    --hl-background: var(--hl-gray-09);
+
+    /* CONTAINER DIMS */
+    --container-width: calc(100vw - 3rem);
+    --container-width-desktop: 960px;
+    --container-width-widescreen: 1152px;
+    --container-width-fullhd: 1344px;
+
+    /* NEWSLETTER */
+    --newsletter-strip-size: 16px;
+    --newsletter-border-size: 1.5rem;
+
+    /* BD SECTIONS */
+    --bd-section-vertical: 1.5rem;
+    --bd-section-horizontal: 1.5rem;
+    --bd-section-h: 170deg;
+    --bd-index-vertical: 3rem;
+    --bd-index-gap: 3rem;
+}
