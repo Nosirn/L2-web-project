@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Au Palais Des Saveurs</title>
 
-    <!-- Libraries -->
+    <!-- CSS Frameworks -->
     <link rel="stylesheet" href="libraries/css/bulma.css">
 
     <!-- CSS -->
@@ -14,90 +14,18 @@
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="scss/style.css">
     <link rel="stylesheet" href="scss/media.css">
+
+    <!-- HTML Files Include System (Only for Front End Dev, it will be replaced by the PHP MVC Backend) -->
+    <script src="libraries/js/csi.min.js"></script>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar has-shadow is-primary">
-        <div class="navbar-brand">
-            <a class="navbar-item">
-                <img class="navbar-img px-2 py-2" src="https://via.placeholder.com/200x76" alt="au palais des saveurs">
-            </a>
-            <a class="navbar-burger" id="burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-        </div>
-
-        <div class="navbar-menu" id="nav-links">
-            <div class="navbar-start">
-                <a class="navbar-item" href="">Test</a>
-                <a class="navbar-item" href="">Test</a>
-                <a class="navbar-item" href="">Test</a>
-                <a class="navbar-item" href="">Test</a>
-            </div>
-            
-            <div class="navbar-end">
-                <div class="navbar-item">
-                <div class="field is-grouped">
-                    <p class="control">
-                    <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target=""
-                    target="_blank" href="https://twitter.com/intent/tweet?text=&amp;hashtags=&amp;url=o&amp;via=jgthms">
-                        <span class="icon">
-                            <i class="fab fa-twitter"></i>
-                        </span>
-                    </a>
-                    </p>
-                </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-
-    <!-- Newsletter Form -->
-    <div class="bd-newsletter" id="newsletter">
-        <section class="bd-index-section bd-newsletter-box">
-            <div class="bd-newsletter-heading">
-
-                <span class="icon paper-plane has-text-primary is-size-2-widescreen">
-                    <i class="fas fa-paper-plane"></i>
-                </span>
-
-                <h2 class="title has-text-block mb-0 is-size-2-widescreen">
-                    <strong>Newsletter</strong>
-                    <small>Lorem Ipsum Bidule Machin Truc !</small>
-                </h2>
-
-                <form action="#" method="POST", accept-charset="UTF-8">
-                    <div class="bd-newsletter-fields">
-
-                        <div class="control has-icons-left is-expanded">
-                            <input type="email" value name="email" class="input is-medium is-primary"
-                            placeholder="email address" required>
-                            <span class="icon is-small is-left">
-                                <i class="fas fa-envelope"></i>
-                            </span>
-                        </div>
-
-                        <div class="control">
-                            <button class="button is-medium is-primary">
-                                <strong>Subscribe</strong>
-                            </button>
-                        </div>
-
-                    </div>
-                </form>
-            </div>
-        </section>
-    </div>
-
-
-
-
-    <!-- Libraries -->
-    <script src="libraries/js/jquery-3.6.0.min.js"></script>
+    <!-- JS Libs -->
     <script src="libraries/assets/font-awesome/js/all.js"></script>
+
+    <!-- HTML Elems (Only for Front End Dev, it will be replaced by the PHP MVC Backend) -->
+    <div data-include="/common/navbar.html"></div>
+    <div data-include="/common/newsletter.html"></div>
+    <div data-include="/common/footer.html"></div>
 
     <!-- JS -->
     <script src="js/index.js"></script>
