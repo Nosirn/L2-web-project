@@ -9,23 +9,22 @@
     <!-- CSS Frameworks -->
     <link rel="stylesheet" href="libraries/css/bulma.css">
 
-    <!-- CSS -->
+    <!-- CSS --> 
     <link rel="stylesheet" href="css/parameters.css">
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="scss/style.css">
     <link rel="stylesheet" href="scss/media.css">
-
-    <!-- HTML Files Include System (Only for Front End Dev, it will be replaced by the PHP MVC Backend) -->
-    <script src="libraries/js/csi.min.js"></script>
 </head>
 <body>
+
+    <?php
+        include 'common/navbar.php';
+        include 'common/newsletter.php';
+        include 'common/footer.php';
+    ?>
+
     <!-- JS Libs -->
     <script src="libraries/assets/font-awesome/js/all.js"></script>
-
-    <!-- HTML Elems (Only for Front End Dev, it will be replaced by the PHP MVC Backend) -->
-    <div data-include="/common/navbar.html"></div>
-    <div data-include="/common/newsletter.html"></div>
-    <div data-include="/common/footer.html"></div>
 
     <!-- JS -->
     <script src="js/index.js"></script>
