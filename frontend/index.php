@@ -9,11 +9,13 @@
     <!-- CSS Frameworks -->
     <link rel="stylesheet" href="libraries/css/bulma.css">
 
-    <!-- CSS --> 
+    <!-- PARAM CSS --> 
     <link rel="stylesheet" href="css/parameters.css">
     <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="scss/style.css">
-    <link rel="stylesheet" href="scss/media.css">
+
+    <!-- BUNDLED CSS --> 
+    <link rel="stylesheet" href="css/bundled/style.min.css">
+    <link rel="stylesheet" href="css/bundled/media.min.css">
 </head>
 <body>
 

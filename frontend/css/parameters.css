@@ -5,6 +5,7 @@
 
 /* MAIN VARS */
 :root {
+    /* MAIN COLORS */
     --text-primary: #000000; 
     --text-secondary: #818181;
 
@@ -17,6 +18,9 @@
     --elem-secondary-bck: #000000;
 
     --newsletter-bck: #1e1e1e;
+
+    --footer-bck: #FF0000;
+    
 
     /* DYN COLORS */
     --hl-color: var(--hl-orange);
