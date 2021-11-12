@@ -1,8 +1,8 @@
-<div class="bd-newsletter" id="newsletter">
-    <section class="bd-index-section bd-newsletter-box">
-        <div class="bd-newsletter-heading">
+<div id="newsletter">
+    <section class="newsletter-box">
+        <div class="newsletter-heading">
 
-            <span class="icon paper-plane has-text-primary is-size-2-widescreen">
+            <span class="icon newsletter-icon paper-plane has-text-primary is-size-2-widescreen">
                 <i class="fas fa-paper-plane"></i>
             </span>
 
@@ -12,14 +12,16 @@
             </h2>
 
             <form action="#" method="POST", accept-charset="UTF-8">
-                <div class="bd-newsletter-fields">
+                <div class="newsletter-fields">
 
                     <div class="control has-icons-left is-expanded">
                         <input type="email" value name="email" class="input is-medium is-primary"
                         placeholder="email address" required>
+
                         <span class="icon is-small is-left">
                             <i class="fas fa-envelope"></i>
                         </span>
+                        
                     </div>
 
                     <div class="control">
