@@ -4,11 +4,11 @@
   }
 }
 
-.navbar .navbar-img {
+#navbar .navbar-img {
   max-height: 76px;
 }
 
-.navbar .navbar-burger {
+#navbar .navbar-burger {
   margin-top: auto;
   margin-bottom: auto;
 }

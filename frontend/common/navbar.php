@@ -1,4 +1,4 @@
-<nav class="navbar has-shadow is-primary">
+<nav class="navbar has-shadow is-primary" id="navbar">
     <div class="navbar-brand">
         <a class="navbar-item">
             <img class="navbar-img px-2 py-2" src="https://via.placeholder.com/200x76" alt="au palais des saveurs">
