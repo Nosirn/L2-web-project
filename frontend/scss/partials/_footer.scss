@@ -1,3 +1,10 @@
 #footer {
+    background-color: var(--col-sections);
 
+    p {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: var(--elem-border-size);
+        color: var(--col-secondary-text);
+    }
 }

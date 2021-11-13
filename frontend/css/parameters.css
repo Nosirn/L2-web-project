@@ -6,38 +6,27 @@
 /* MAIN VARS */
 :root {
     /* MAIN COLORS */
-    --text-primary: #000000; 
-    --text-secondary: #818181;
-
-    --bck: #ffffff;
-    --bck-secondary: #fafafa;
-
-    --elem-primary: #2d8cff;
-    --elem-primary-bck: #000000;
-    --elem-secondary: #000000;
-    --elem-secondary-bck: #000000;
-
-    --newsletter-bck: #1e1e1e;
-
-    --footer-bck: #FF0000;
-    
-
-    /* DYN COLORS */
-    --hl-color: var(--hl-orange);
-    --hl-background: var(--hl-gray-09);
+    --col-background: #1E1E1E;
+    --col-sections: #252526;
+    --col-optional: #2D2D2D;
+    --col-navbar: #333333;
+    --col-rules: #3C3C3C;
+    --col-main-text: #FFFFFF;
+    --col-secondary-text: #9b9b9b;
+    --col-primary: #2D8CFF;
 
     /* CONTAINER DIMS */
     --container-width: calc(100vw - 3rem);
     --container-width-desktop: 960px;
+    --elem-border-size: 1.5rem;
 
     /* NEWSLETTER */
     --newsletter-strip-size: 16px;
-    --newsletter-border-size: 1.5rem;
 
     /* BD SECTIONS */
-    --bd-section-vertical: 1.5rem;
-    --bd-section-horizontal: 1.5rem;
-    --bd-section-h: 170deg;
-    --bd-index-vertical: 3rem;
-    --bd-index-gap: 3rem;
+    --section-vertical: 1.5rem;
+    --section-horizontal: 1.5rem;
+    --section-h: 170deg;
+    --index-vertical: 3rem;
+    --index-gap: 3rem;
 }
