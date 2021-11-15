@@ -7,7 +7,7 @@
 
     function loadmeat() {
         global $c;
-        $sql = "SELECT * FROM meat";
+        $sql = "SELECT * FROM viande";
         $res = mysqli_query($c, $sql);
         $list = [];
         while($row = mysqli_fetch_assoc($res)) {
@@ -18,7 +18,18 @@
     
     }
     
+    function loadbread() {
+        global $c;
+        $sql = "SELECT * FROM pain";
+        $res = mysqli_query($c, $sql);
+        $list = [];
+        while($row = mysqli_fetch_assoc($res)) {
+            $list[] = $row;
+        }
+        return $list;
+        
     
+    }
     
     
     function loaddrinks() {
@@ -36,7 +47,7 @@
     
     function displaydrinks($list) {
         for ($i = 0; $i<count($list);$i++){
-           // echo "<br/><li>Boissons : ".$list[$i]["name"].$list[$i]["volume"]."</li>";
+            // echo "<br/><li>Boissons : ".$list[$i]["name"].$list[$i]["volume"]."</li>";
             //echo "<li>Volume : ".$list[$i]["volume"]."</li>";
             echo"<option value='".$list[$i]["name"]."'>".$list[$i]["name"].$list[$i]["volume"]."</option>;"; 
             }
@@ -53,10 +64,4 @@
         
     
     }
-    
-    
-
-
-    
-    
 ?>

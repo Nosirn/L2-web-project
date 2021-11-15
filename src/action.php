@@ -7,4 +7,5 @@ if (isset($_GET["page"]))
 $drinks = loaddrinks();
 $meat = loadmeat();
 $sauce = loadsauce();
+$pain = loadbread();
 ?>
