@@ -17,6 +17,7 @@
 <body>
     <?php
         // include 'common/navbar.php';
+        include 'common/about-us.php';
         include 'common/newsletter.php';
         include 'common/footer.php';
     ?>
