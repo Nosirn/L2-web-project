@@ -1,6 +1,7 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 @import url('https://fonts.googleapis.com/icon?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/icon?family=Nunito+Sans');
 @import url('//db.onlinewebfonts.com/c/91efea3c2356f5fa3e2fce8acd26d667?family=Orator');
 
 /* MAIN VARS */
@@ -8,12 +9,18 @@
     /* MAIN COLORS */
     --col-background: #1E1E1E;
     --col-sections: #252526;
-    --col-optional: #2D2D2D;
+
     --col-navbar: #333333;
     --col-rules: #3C3C3C;
-    --col-main-text: #FFFFFF;
-    --col-secondary-text: #9b9b9b;
+
     --col-primary: #2D8CFF;
+    --col-optional: #2D2D2D;
+
+    --col-footer: #252E42;
+    --col-copyright: #0C162C;
+
+    --col-main-text: #FFFFFF;
+    --col-secondary-text: #858A95;
 
     /* CONTAINER DIMS */
     --container-width: calc(100vw - 3rem);
