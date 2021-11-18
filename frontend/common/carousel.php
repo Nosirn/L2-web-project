@@ -1,4 +1,4 @@
-<div class="table-container">
+<div class="table-container" id="carousel">
     <!--Tableau (Base Carousel)-->
     <table class="table is-hoverable">
 
