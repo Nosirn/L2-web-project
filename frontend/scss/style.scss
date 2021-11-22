@@ -1,8 +1,9 @@
-// PARTIALS
-@import 'partials/body';
-@import 'partials/footer';
-@import 'partials/media';
-@import 'partials/navbar';
-@import 'partials/newsletter';
-@import 'partials/about-us';
-@import 'partials/carousel';
+// GENERAL
+@import 'partials/general/body';
+@import 'partials/general/media';
+
+// SECTIONS
+@import 'partials/common/header';
+@import 'partials/common/newsletter';
+@import 'partials/common/footer';
+
