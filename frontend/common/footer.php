@@ -5,7 +5,7 @@
                 <div class="ftco-footer-widget mb-4">
                     <h2 class="ftco-heading-2">About Us</h2>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Lorem ipsum doordoldodr, sit amet consectetur adipisicing elit.
                     </p>
                     <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                         <li class="ftco-animate fadeInUp ftco-animated">
