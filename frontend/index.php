@@ -17,13 +17,13 @@
     <link rel="stylesheet" href="libraries/timepicker/jquery.timepicker.css">
 
     <!-- CSS --> 
-    <link rel="stylesheet" href="css/parameters.css">
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="assets/css/parameters.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
 </head>
 <body>
     <?php
-        include 'common/footer.php';
+        include 'pages/sign-in.php';
     ?>
 
     <!-- JS Libs -->
