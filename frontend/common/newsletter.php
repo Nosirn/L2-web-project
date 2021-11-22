@@ -1,37 +1,17 @@
-<div id="newsletter">
-    <section class="newsletter-box">
-        <div class="newsletter-heading">
+<section class="section" id="newsletter">
+    <div class="container">
+        <h1>Stay uptaded on the latest Chainlink news</h1>
+        <div class="form-wrapper">
+            <form id="Newsletter-form" class="form-subscribe" name="Newsletter-form" data-name="Newsletter" method="post" action="/">
+                <div class="form-field-wrapper">
+                    <label for="Email" class="field-label-hidden"></label>
 
-            <span class="icon newsletter-icon paper-plane has-text-primary is-size-2-widescreen">
-                <i class="fas fa-paper-plane"></i>
-            </span>
+                    <input type="email" class="field-email-input" maxlength="256" name="Email" data-name="Email"
+                    placeholder="Enter your email address" id="email" required>
 
-            <h2 class="title has-text-block mb-0 is-size-2-widescreen">
-                <strong>Newsletter</strong>
-                <small>Lorem Ipsum Bidule Machin Truc !</small>
-            </h2>
-
-            <form action="#" method="POST", accept-charset="UTF-8">
-                <div class="newsletter-fields">
-
-                    <div class="control has-icons-left is-expanded">
-                        <input type="email" value name="email" class="input is-medium is-primary"
-                        placeholder="email address" required>
-
-                        <span class="icon is-small is-left">
-                            <i class="fas fa-envelope"></i>
-                        </span>
-                        
-                    </div>
-
-                    <div class="control">
-                        <button class="button is-medium is-primary">
-                            <strong>Subscribe</strong>
-                        </button>
-                    </div>
-
+                    <input type="submit" value="Subscribe" data-wait="Please wait..." data-hover="false" class="button is-black">
                 </div>
             </form>
         </div>
-    </section>
-</div>
+    </div>
+</section>
