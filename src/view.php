@@ -23,11 +23,19 @@
             echo"<h4>1</h4>";
         } else if ($page == "menu"){
 
-            //?page=menu&viande=taviande&sauce=tasauce&kebab
-            //?page=menu&viande=taviande&sauce=tasauce&durum
+
             ?>
-            <form method="GET" action="ajouter.php">
+            <form method="GET" action="./panier/ajouter.php">
                 <article>
+                    <!-- <section>
+                        <h5>Quantité : </h5>
+                        <form>
+                            <input id="moins" type="button" value="-" />
+                            <input id ="result" type="texte" value="1" maxlength="2" name='quantite' /> 
+                            <input id="plus" type="button" value="+" />
+                        </form> -->
+
+                    </section>
                     <section>
                     <h5>Pain : </h5>
                         <select name='pain'>
@@ -44,21 +52,33 @@
                     </select></section>
                     <section>
                         <h5>Sauces : </h5>
-                        <select name='sauce'> 
+                        <select name='sauce1'> 
                         <?php
                         display($sauce);
                         ?>
-                    </select></section>
+                    </select>
+                    <select name='sauce2'> 
+                        <?php
+                        display($sauce);
+                        ?>
+                    </select>
+                </section>
                 </article>
-            </form>
-            <input type="submit" value="Ajouter">
+            
+            
             
             <h2>Boissons</h2>
-                <select id='boisson'>
+            <P> prix de boiss = 2€</P>
+                <select id='boisson' name='boisson'>
                     <?php
             displaydrinks($drinks);
                 ?>
             </select>
+
+            <input type="submit" value="Ajouter">
+
+        </form>
+
             <?php
         } else if ($page =="signup"){
             echo"<h4>3</h4>";
@@ -66,17 +86,40 @@
             echo"<h4>4</h4>";
         } else if ($page == "panier"){
             ?>
-            <form action='fonction_panier.php' method='post' >
-            <table style='width: 400px'>
-            <tr><td colspan='4'>Votre panier</td></tr>
+            <form action='./panier/fonction_panier.php' method='post' >
+                <h4>Votre panier</h4>
+                <table style='width: 400px'>
             <tr>
+                
                 <td>Libellé</td>
                 <td>Quantité</td>
                 <td>Prix Unitaire</td>
                 <td>Action</td>
             </tr>
+                <?php
+                global $c;
+                $sql = "SELECT * FROM commande_en_cours";
+                $result = mysqli_query($c, $sql);
+                while ($row = mysqli_fetch_assoc($result)){
+                echo "
+            <tr><from action='./panier/supprimer.php' method='post'>
+                <td>".$row['commande']."</td>
+                <td>
+                <input id='moins' type='button' value='-' />
+                <input id ='result' type='texte' value='1' maxlength'2' name='quantite'  /> 
+                <input id='plus' type='button' value='+' />
+                </td>
+                <td>".$row['prix']."</td>
+                <td name=".$row['id']."><input type='submit' value='supprimer'></td>
+                </from></tr>";
+        }
+    }
+        ?>
+        </table>
+        <input type="submit" value="valider !">
+
             <?php
-        
+        /*
         if (creationPanier()){
         $nbArticles=count($_SESSION['panier']['libelleProduit']);
         if ($nbArticles <= 0  )
@@ -109,7 +152,7 @@
 
 
 
-		?>
+		*/?>
 	</section>
 
 </body>

@@ -4,7 +4,6 @@
 
    //Modèles
    include "modele.php";
-   include "modele_Articles.php";
 
    //Actions
    include "action.php";
