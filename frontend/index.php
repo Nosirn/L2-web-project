@@ -6,26 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Au Palais Des Saveurs</title>
 
-    <!-- CSS Framework -->
-    <link rel="stylesheet" href="libraries/bulma/css/bulma.css">
+    <!-- CSS FRAMEWORK -->
+    <link rel="stylesheet" href="libraries/animate/animate.css">
+    <link rel="stylesheet" href="libraries/aos/aos.css">
+    <link rel="stylesheet" href="libraries/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="libraries/ionicons/ionicons.min.css">
+    <link rel="stylesheet" href="libraries/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="libraries/owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libraries/owl/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="libraries/timepicker/jquery.timepicker.css">
 
     <!-- CSS --> 
-    <link rel="stylesheet" href="css/parameters.css">
-    <link rel="stylesheet" href="css/default.css">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="assets/css/parameters.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
 </head>
 <body>
     <?php
-        // include 'common/navbar.php';
-        // include 'common/carousel.php';
-        include 'common/about-us.php';
-        include 'common/newsletter.php';
-        include 'common/footer.php';
+        include 'pages/sign-in.php';
     ?>
 
     <!-- JS Libs -->
-    <script src="libraries/font-awesome/js/all.js"></script>
-
-    <!-- JS <script src="js/index.js"></script>-->
+    <script src="libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="libraries/aos/aos.js"></script>
+    <script src="libraries/bootstrap/bootstrap.min.js"></script>
+    <script src="libraries/magnific-popup/magnific-popup.min.js"></script>
+    <script src="libraries/owl/owl.carousel.min.js"></script>
+    <script src="libraries/timepicker/jquery.timepicker.js"></script>
 </body>
 </html>

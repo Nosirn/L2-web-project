@@ -1,0 +1,57 @@
+@media screen and (max-width: 767px) {
+  .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --container-width: var(--container-width-desktop);
+  }
+}
+
+#newsletter {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-image: url("https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f7225356e10d05f3cb75521_background-light.jpg");
+  background-position: 0 50%;
+  background-size: cover;
+  text-align: center;
+}
+
+#newsletter h1 {
+  margin-top: 0;
+  margin-bottom: 48px;
+  color: var(--col-sections);
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+#footer {
+  color: white;
+}
+
+#sign-in {
+  width: 100%px;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+#sign-in .form-control {
+  margin-bottom: 10px;
+}
+
+#sign-in .checkbox {
+  padding: 10px;
+}
