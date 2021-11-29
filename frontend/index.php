@@ -20,10 +20,14 @@
     <link rel="stylesheet" href="assets/css/parameters.css">
     <link rel="stylesheet" href="assets/css/default.css">
     <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
 <body>
     <?php
         include 'pages/sign-in.php';
+        // include 'pages/common/newsletter.php';
+        // include 'pages/common/carousel:.php';
+        // include 'pages/common/footer.php';
     ?>
 
     <!-- JS Libs -->

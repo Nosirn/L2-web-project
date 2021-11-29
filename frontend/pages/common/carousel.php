@@ -133,7 +133,123 @@
                         <p class="card-text">Plein de bonnes choses</p>
                     </div>
                     <div class="card-body">
-                        <button type="button" class="btn btn-secondary btn-lg">Commander</button>
+                        <!-- <div class="dropdown is-active">
+                            <div class="dropdown-trigger">
+                            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu2">
+                                <span>Commander</span>
+                                <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                            </div>
+                            <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-item">
+                                        <button class="button is-dark is-small">1 viande</button>
+                                        <button class="button is-dark is-small">2 viandes</button>
+                                        <button class="button is-dark is-small">3 viandes</button>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                <span>1ère Viande</span>
+                                                <span class="icon is-small">
+                                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                    <span>2ème Viande</span>
+                                                    <span class="icon is-small">
+                                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                <span>3ème Viande</span>
+                                                <span class="icon is-small">
+                                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                </span>
+                                            </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <hr class="dropdown-divider">
+                                    <div class="dropdown-item">
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                    <span>Boisson</span>
+                                                    <span class="icon is-small">
+                                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="dropdown-divider">
+                                    <div class="dropdown-item">
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                    <span>1ère Sauce</span>
+                                                    <span class="icon is-small">
+                                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                    <span>2ème Sauce</span>
+                                                    <span class="icon is-small">
+                                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="dropdown-divider">
+                                    <div class="dropdown-item"></div>
+                                        <button class="button is-dark is-right">Valider</button>
+                                    </div>
+                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider">
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
 
@@ -144,7 +260,123 @@
                         <p class="card-text">Plein de bonnes choses</p>
                     </div>
                     <div class="card-body">
-                        <button type="button" class="btn btn-secondary btn-lg">Commander</button>
+                        <!-- <div class="dropdown is-active">
+                            <div class="dropdown-trigger">
+                            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu2">
+                                <span>Commander</span>
+                                <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                            </div>
+                            <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-item">
+                                        <button class="button is-dark is-small">1 viande</button>
+                                        <button class="button is-dark is-small">2 viandes</button>
+                                        <button class="button is-dark is-small">3 viandes</button>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                <span>1ère Viande</span>
+                                                <span class="icon is-small">
+                                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                    <span>2ème Viande</span>
+                                                    <span class="icon is-small">
+                                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                <span>3ème Viande</span>
+                                                <span class="icon is-small">
+                                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                </span>
+                                            </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <hr class="dropdown-divider">
+                                    <div class="dropdown-item">
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                    <span>Boisson</span>
+                                                    <span class="icon is-small">
+                                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="dropdown-divider">
+                                    <div class="dropdown-item">
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                    <span>1ère Sauce</span>
+                                                    <span class="icon is-small">
+                                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                    <span>2ème Sauce</span>
+                                                    <span class="icon is-small">
+                                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="dropdown-divider">
+                                    <div class="dropdown-item"></div>
+                                        <button class="button is-dark is-right">Valider</button>
+                                    </div>
+                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider">
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
 
@@ -155,7 +387,123 @@
                         <p class="card-text">Plein de bonnes choses</p>
                     </div>
                     <div class="card-body">
-                        <button type="button" class="btn btn-secondary btn-lg">Commander</button>
+                        <!-- <div class="dropdown is-active">
+                            <div class="dropdown-trigger">
+                            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu2">
+                                <span>Commander</span>
+                                <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                            </div>
+                            <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-item">
+                                        <button class="button is-dark is-small">1 viande</button>
+                                        <button class="button is-dark is-small">2 viandes</button>
+                                        <button class="button is-dark is-small">3 viandes</button>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                <span>1ère Viande</span>
+                                                <span class="icon is-small">
+                                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                    <span>2ème Viande</span>
+                                                    <span class="icon is-small">
+                                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                <span>3ème Viande</span>
+                                                <span class="icon is-small">
+                                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                </span>
+                                            </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                                    <hr class="dropdown-divider">
+                                    <div class="dropdown-item">
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                    <span>Boisson</span>
+                                                    <span class="icon is-small">
+                                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="dropdown-divider">
+                                    <div class="dropdown-item">
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                    <span>1ère Sauce</span>
+                                                    <span class="icon is-small">
+                                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown">
+                                            <div class="dropdown-trigger">
+                                                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
+                                                    <span>2ème Sauce</span>
+                                                    <span class="icon is-small">
+                                                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <div class="dropdown-menu" id="dropdown-menu3" role="menu">
+                                                <div class="dropdown-content">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr class="dropdown-divider">
+                                    <div class="dropdown-item"></div>
+                                        <button class="button is-dark is-right">Valider</button>
+                                    </div>
+                                    <hr class="dropdown-divider">
+                                    <hr class="dropdown-divider">
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
             </div> 
