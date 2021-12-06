@@ -25,9 +25,12 @@
 <body>
     <?php
         include 'pages/sign-in.php';
+        // include 'pages/common/menu.php';
+        // include 'pages/common/commande.php';
         // include 'pages/common/newsletter.php';
-        // include 'pages/common/carousel:.php';
+        // include 'pages/common/carousel.php';
         // include 'pages/common/footer.php';
+        
     ?>
 
     <!-- JS Libs -->

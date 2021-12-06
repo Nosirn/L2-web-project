@@ -6,7 +6,7 @@
                         <p class="card-text">1-3 Viandes aux choix, 2 Sauces aux choix, Boissons aux choix</p>
                     </div>
                     <div class="card-body">
-                        <div class="dropdown is-active">
+                        <div class="dropdown is-hoverable">
                             <div class="dropdown-trigger">
                             <button class="button" aria-haspopup="true" aria-controls="dropdown-menu2">
                                 <span>Commander</span>
@@ -116,7 +116,7 @@
                                     </div>
                                     <hr class="dropdown-divider">
                                     <div class="dropdown-item"></div>
-                                        <button class="button is-dark is-right">Valider</button>
+                                        <button class="button is-dark">Valider</button>
                                     </div>
                                     <hr class="dropdown-divider">
                                     <hr class="dropdown-divider">
